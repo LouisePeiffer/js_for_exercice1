@@ -4,6 +4,12 @@ for (let index = 0; index < 20; index++) {
 }
 for (let index = 0; index < 21; index++) {
     console.log(index);
+    if (index % 2 == 0) {
+        console.log(`${index} est pair`);
+    }
+    else (
+        console.log(`${index} est impair`)
+    )
 }
 
 // Exo 2
